@@ -1,0 +1,133 @@
+.logo img {
+  position: fixed;
+  left: 45%;
+  top: 0;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.topnav {
+  position: fixed;
+  top: 10;
+  width: 100%;
+  background-color: darkgrey;
+  overflow: hidden;
+  height: 40px;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bold;
+  vertical-align: text-middle;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #808080;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: black;
+  color: grey;
+}
+
+.body p {
+	position: relative;
+	left: 30%;
+	top: 30px;
+	bottom: 30px;
+	color: black;
+	font-weight: bold;
+	width: 600px;
+	height: 150px;
+
+}
+
+.bottomnav img {
+	position: fixed;
+	left: 41%;
+	bottom: 0;
+	text-align: center;
+	padding: 14px 16px;
+	opacity: 0.8;
+}
+
+.dogs p {
+
+	position:relative;
+	bottom: -400px;
+	left: 39%;
+
+}
+
+.cats p {
+
+	position:relative;
+	bottom: 140px;
+	left: 15%;
+	opacity: 0.3;
+
+}
+
+.dogs2 p {
+
+	position:relative;
+	bottom: 140px;
+	left: 36%;
+	opacity: 0.3;
+	max-width: 100%;
+ 	max-height: 100%;
+	bottom: -400px;
+
+
+}
+
+form { 
+	display:block;
+	background-color: #9e9e9e; 
+	padding: 20px; 
+	width: 185px; 
+	/*200 + 300 + (20 * 2)*/ 
+	position:relative;
+	left: 41%;
+	top: -200px;
+
+
+}
+
+.formheader h1 {
+	position:relative;
+	width: 400px;
+	height: 150px;
+	left: 39%;
+	top: 100px;
+
+}
+
+.formheader h2 {
+	position:relative;
+	width: 400px;
+	height: 150px;
+	left: 38%;
+	top: 420px;
+
+}
+
+.birds p {
+
+	position:relative;
+	bottom: -200px;
+	left: 36%;
+	opacity: 0.3;
+
+}
